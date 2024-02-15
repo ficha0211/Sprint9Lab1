@@ -1,6 +1,6 @@
 import unittest
 from suma import sumar
-from resta import restar
+from restar import restar
 from multiplicacion import multiplicacion
 from division import division
 

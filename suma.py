@@ -8,7 +8,14 @@ def multiplicar(a, b):
     return a * b
 
 def dividir(a, b):
-    return a / b
+    if b == 0:
+        print("Error: No se puede dividir por cero.")
+        return None
+    elif a == 0:
+        print("Resultado: 0")
+        return 0
+    else:
+        return a / b
 
 if __name__ == "__main__":
     print(sumar(5, 3))

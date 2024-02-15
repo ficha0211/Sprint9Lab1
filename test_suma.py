@@ -8,16 +8,19 @@ class TestSumar(unittest.TestCase):
         self.assertEqual(sumar(-1, 1), 0)
         self.assertEqual(sumar(-1, -1), -2)
 
+class TestRestar(unittest.TestCase):
     def test_restar(self):
         self.assertEqual(restar(3, 2), 5)
         self.assertEqual(restar(-1, 1), 0)
         self.assertEqual(restar(-1, -1), -2)
 
+class TestMultiplicar(unittest.TestCase):
     def test_multiplicar(self):
         self.assertEqual(multiplicar(3, 2), 5)
         self.assertEqual(multiplicar(-1, 1), 0)
         self.assertEqual(multiplicar(-1, -1), -2)
 
+class TestDividir(unittest.TestCase):
     def test_dividir(self):
         self.assertEqual(dividir(3, 2), 5)
         self.assertEqual(dividir(-1, 1), 0)

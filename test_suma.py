@@ -1,8 +1,5 @@
 import unittest
-from suma import sumar
-from restar import restar
-from multiplicacion import multiplicacion
-from division import division
+from suma import sumar, restar, multiplicar, dividir
 
 class TestSumar(unittest.TestCase):
 

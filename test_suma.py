@@ -23,7 +23,7 @@ class TestMultiplicar(unittest.TestCase):
 class TestDividir(unittest.TestCase):
     def test_dividir(self):
         self.assertEqual(dividir(4, 2), 2)
-        self.assertEqual(dividir(-6, 6), 1)
+        self.assertEqual(dividir(-6, 6), -1)
         self.assertEqual(dividir(10, 0), None)
 
 if __name__ == '__main__':
